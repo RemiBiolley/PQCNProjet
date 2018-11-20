@@ -1,0 +1,28 @@
+.content{
+    background-color: #ededed;
+    margin-left: 2%;
+    margin-right: 2%;
+    border : 1px black solid;
+    padding: 1%;
+}
+
+.resume{
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume img{
+    width: 20%;
+    height: 20%;
+}
+
+.resume .text{
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 3%;
+}
+
+.content h1{
+    color: #a40f37 ;
+    font-weight: bold;
+}
