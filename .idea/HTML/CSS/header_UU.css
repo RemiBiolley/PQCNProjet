@@ -1,15 +1,15 @@
-a{
-    background-image : url("../../logopaques.png");
+header-haut a{
+    background-image : url("logopaques.png");
     background-color: blue;
     width: 10%;
 }
 
-img{
+header-haut img{
     width: 15%;
     height: auto;
 }
 
-.header{
+.header-haut{
     display: flex;
     border: 3px black solid;
     padding: 1%;
