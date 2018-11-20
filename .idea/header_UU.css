@@ -1,0 +1,39 @@
+img{
+    width: 15%;
+    height: auto;
+}
+
+.header{
+    display: flex;
+    border: 3px black solid;
+    padding: 1%;
+}
+
+.infos{
+    text-align: center;
+    margin-left: 5%;
+}
+
+.menu {
+    display: flex;
+    border: 3px black solid;
+    justify-content: space-between;
+
+}
+
+.menu a {
+    background-color: #ededed;
+    width: 25%;
+    border: 1px #a8aba2 solid;
+    text-align: center;
+    padding: 1%;
+    margin: 2%;
+    text-decoration : none;
+}
+
+.menu a div {
+    color: #a40f37;
+    font-size: 100%;
+    font-weight: bold;
+    font-size: 150%;
+}
