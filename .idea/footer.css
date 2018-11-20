@@ -1,26 +1,4 @@
-a{
-    background-image : url("logopaques.png");
-    background-color: blue;
-    width: 10%;
-}
-
-img{
-    width: 15%;
-    height: auto;
-}
-
-.header{
-    display: flex;
-    border: 3px black solid;
-    padding: 1%;
-}
-
-.infos{
-    text-align: center;
-    margin-left: 5%;
-}
-
-.menu-header {
+.menu-footer {
     display: flex;
     border: 3px black solid;
     justify-content: space-between;
@@ -28,8 +6,8 @@ img{
 
 }
 
-.menu-header a {
-    background-color: #a40f37;
+.menu-footer a {
+
     width: 25%;
     border: 1px #a8aba2 solid;
     text-align: center;
@@ -40,12 +18,13 @@ img{
     background-color: #a8aba2;
 }
 
-.menu-header a div {
+.menu-footer a div {
     color: black;
     font-size: 100%;
     font-weight: bold;
+    display: inline;
 }
 
-.menu-header a:hover {
+.menu-footer a:hover {
     background-color: #a40f37;
 }
