@@ -1,8 +1,14 @@
+body{
+    background-image: url("https://images4.alphacoders.com/641/thumb-1920-641968.jpg") ;
+    background-attachment: fixed;
+}
+
 .content{
     background-color: #ededed;
+    border-radius: 19px;
     margin :2%;
-    border : 1px black solid;
     padding: 1%;
+    opacity: 0.8;
 }
 
 .resume{
@@ -23,7 +29,7 @@
 }
 
 .content h1{
-    color: #a40f37 ;
+    color: #720c2b ;
     font-weight: bold;
     font-size: 250%;
 }
